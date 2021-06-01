@@ -141,5 +141,24 @@ const chance = (num) => {
 
 chance(4)
 
-//  Practice Choses, Different Days
+//  Practice Chores, Different Days
+const person = {
+    firstName: "Donald",
+    lastName: "McLelland"
+}
+
+const chore1 = person => `${person.firstName} ${person.lastName} took out the trash.`
+const chore2 = person => `${person.firstName} ${person.lastName} washed the dishes.`
+const chore3 = person => `${person.firstName} ${person.lastName} did laundry.`
+const chore4 = person => `${person.firstName} ${person.lastName} swept the house.`
+const chore5 = person => `${person.firstName} ${person.lastName} washed the car.`
+const chore6 = person => `${person.firstName} ${person.lastName} cooke food.`
+
+
+console.log(chore1(person))
+console.log(chore2(person))
+console.log(chore3(person))
+console.log(chore4(person))
+console.log(chore5(person))
+console.log(chore6(person))
 
